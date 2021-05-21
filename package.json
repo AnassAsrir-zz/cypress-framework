@@ -23,6 +23,10 @@
   },
   "homepage": "https://github.com/anass-asrir/cypress-framework#readme",
   "devDependencies": {
-    "cypress": "^7.3.0"
+    "cypress": "^7.3.0",
+    "cypress-cucumber-preprocessor": "^4.1.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   }
 }
